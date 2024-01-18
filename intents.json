@@ -1,0 +1,116 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey there",
+        "Good morning",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What medical assistance do you need?",
+        "Hey! I'm here to help with your first aid questions."
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Bye",
+        "Thanks for the help",
+        "That's all for now"
+      ],
+      "responses": [
+        "Goodbye! Stay safe and take care.",
+        "See you later! Don't hesitate to return if you have more questions.",
+        "Bye! I'm here whenever you need first aid advice."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Appreciate it",
+        "That was helpful"
+      ],
+      "responses": [
+        "You're welcome! I'm glad I could help.",
+        "No problem at all, happy to assist!",
+        "Anytime! If you have more questions, just ask."
+      ]
+    },
+    {
+      "tag": "first_aid_burns",
+      "patterns": [
+        "How do I treat a burn?",
+        "What's the first aid for a burn?",
+        "I got burned, what should I do?"
+      ],
+      "responses": [
+        "For minor burns, cool the burn under cold running water for at least ten minutes. Remove any jewelry or clothing around the area. Do not apply ice, butter, or creams. For serious burns, seek medical attention immediately."
+      ]
+    },
+    {
+      "tag": "first_aid_cuts",
+      "patterns": [
+        "What should I do for a cut?",
+        "How to treat a cut?",
+        "First aid for a bleeding cut"
+      ],
+      "responses": [
+        "For a cut, clean the wound with water and apply gentle pressure with a sterile bandage or clean cloth. If bleeding does not stop, seek medical attention."
+      ]
+    },
+    {
+      "tag": "first_aid_sprains",
+      "patterns": [
+        "First aid for a sprain",
+        "How to treat a sprained ankle?",
+        "I think I sprained my wrist, what should I do?"
+      ],
+      "responses": [
+        "For a sprain, remember R.I.C.E: Rest the injured area, Ice it to reduce swelling, Compress with a bandage, and Elevate the limb. If pain and swelling persist, consult a doctor."
+      ]
+    },
+    {
+      "tag": "first_aid_choking",
+      "patterns": [
+        "Give me first aid steps for choking",
+        "What to do if someone is choking?",
+        "choke",
+        "Heimlich maneuver steps"
+      ],
+      "responses": [
+        "If someone is choking and can't talk, cough, or breathe, stand behind them and give 5 sharp back blows between the shoulder blades with the heel of your hand. If this doesn't work, perform the Heimlich maneuver. For infants, use back slaps and chest thrusts. Seek emergency help if the object does not dislodge."
+      ]
+    },
+    {
+      "tag": "first_aid_bleeding",
+      "patterns": [
+        "First aid procedure for bleeding",
+        "How to stop bleeding?",
+        "Someone is bleeding, what should I do?"
+      ],
+      "responses": [
+        "To stop bleeding, apply firm pressure to the wound with a clean cloth or bandage. Elevate the injured area above the heart if possible. If bleeding is severe or doesn't stop, seek medical attention immediately."
+      ]
+    },
+    {
+      "tag": "search",
+      "patterns": [
+        "Search for",
+        "Find information about",
+        "Look up"
+      ],
+      "responses": [
+        "Let me find that for you.",
+        "Sure, I'll search for it."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>MEDIK KIT</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">MEDIK KIT</h1>
+    <div class="response-container" id="chat-container"></div>
+    <form id="message-form">
+      <input placeholder="(0_0): Type your message here..." type="text" id="message" required>
+      <div class="actions">
+        <button type="submit">SEND MESSAGE</button>
+        <button id="clear" type="button">CLEAR</button>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    const chatContainer = document.getElementById("chat-container");
+    const messageForm = document.getElementById("message-form");
+    const messageInput = document.getElementById("message");
+    const clearButton = document.getElementById("clear");
+
+    messageForm.addEventListener("submit", function (event) {
+      event.preventDefault();
+      const userMessage = messageInput.value.trim();
+
+      if (userMessage !== "") {
+        displayMessage("(o_o)", userMessage, "user");
+        sendMessageToServer(userMessage);
+        messageInput.value = "";
+      }
+    });
+
+    clearButton.addEventListener("click", function (event) {
+      event.preventDefault(); // Prevent default form submission behavior
+      clearChat();
+    });
+
+    function clearChat() {
+      chatContainer.innerHTML = ""; // Clear all messages
+    }
+
+    function displayMessage(sender, message, messageType) {
+      const messageElement = document.createElement("div");
+      messageElement.classList.add("message", messageType);
+      messageElement.textContent = `${sender}: ${message}`;
+      chatContainer.appendChild(messageElement);
+      chatContainer.scrollTop = chatContainer.scrollHeight;
+    }
+
+    async function sendMessageToServer(message) {
+      try {
+        const response = await fetch('/chat', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({text: message}),
+        });
+
+        const responseData = await response.json();
+        displayMessage("[*_*]", responseData.response, "chatbot");
+      } catch (error) {
+        console.error('Error:', error);
+      }
+    }
+  </script>
+</body>
+
+</html>

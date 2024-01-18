@@ -1,0 +1,52 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+neurals/
+venv/
+venv3/
+env/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor/IDE specific files
+.idea/
+.vscode/
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Dependency directories
+node_modules/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.cache/
+.cython/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Local configuration
+*.swp
+*.bak
+*.tmp
+
+# Environment variables file
+.env

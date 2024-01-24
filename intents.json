@@ -1,116 +1,1004 @@
 {
   "intents": [
     {
+      "tag": "general_health_inquiry",
+      "patterns": [
+        "How can I improve my overall well-being?",
+        "What are some tips for maintaining good health?"
+      ],
+      "responses": [
+        "It's important to maintain a balanced diet, exercise regularly, get enough sleep, and manage stress for overall good health."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "symptom_check",
+      "patterns": [
+        "I have a headache, what could be the cause?",
+        "What should I do if I experience persistent fatigue?"
+      ],
+      "responses": [
+        "I'm not a doctor, but persistent symptoms like headaches or fatigue may be related to various factors. It's advisable to consult a healthcare professional for a proper diagnosis."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "medication_inquiry",
+      "patterns": [
+        "Can you suggest an over-the-counter medication for a cold?",
+        "What are common remedies for allergies?"
+      ],
+      "responses": [
+        "I'm not a doctor, but for colds, you might consider over-the-counter options like acetaminophen or ibuprofen. However, it's crucial to consult a healthcare professional for personalized advice."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "emergency_situation",
+      "patterns": [
+        "I've cut myself, what should I do?",
+        "What are the signs of a medical emergency?"
+      ],
+      "responses": [
+        "I'm not a substitute for emergency services. If you're in immediate danger, please call your local emergency number. For minor injuries, clean the wound and apply a sterile bandage. If in doubt, seek professional medical help."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "diet_and_nutrition",
+      "patterns": [
+        "What foods can help lower cholesterol?",
+        "Can you suggest a diet for managing diabetes?"
+      ],
+      "responses": [
+        "Foods rich in fiber, omega-3 fatty acids, and antioxidants may help lower cholesterol. However, it's crucial to work with a nutritionist or healthcare professional to create a personalized plan for managing diabetes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "exercise_recommendation",
+      "patterns": [
+        "What exercises can I do at home?",
+        "How often should I exercise?"
+      ],
+      "responses": [
+        "A mix of aerobic exercises, strength training, and flexibility exercises is beneficial. Consult with a fitness professional to create a workout plan based on your fitness level and goals."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "stress_management",
+      "patterns": [
+        "How can I manage stress?",
+        "Are there relaxation techniques for stress relief?"
+      ],
+      "responses": [
+        "Stress management techniques include deep breathing, meditation, and regular breaks. It's important to identify stressors and find healthy coping mechanisms. If stress persists, consider professional support."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "sleep_advice",
+      "patterns": [
+        "How can I improve my sleep quality?",
+        "What are good sleep hygiene practices?"
+      ],
+      "responses": [
+        "Maintain a consistent sleep schedule, create a relaxing bedtime routine, and ensure a comfortable sleep environment. Avoid screens before bedtime and limit caffeine intake. If sleep problems persist, consult a sleep specialist."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mental_health_support",
+      "patterns": [
+        "I feel anxious, what should I do?",
+        "Can you suggest coping strategies for depression?"
+      ],
+      "responses": [
+        "I'm not a mental health professional, but consider talking to a therapist or counselor. Practice self-care, reach out to friends or family, and prioritize activities that bring joy. If symptoms persist, seek professional help."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "heart_health_tips",
+      "patterns": [
+        "How can I maintain a healthy heart?",
+        "Are there foods that support heart health?"
+      ],
+      "responses": [
+        "To support heart health, maintain a diet rich in fruits, vegetables, and whole grains. Exercise regularly, manage stress, and avoid smoking. Consult a healthcare professional for personalized advice based on your health status."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "allergies_advice",
+      "patterns": [
+        "What are common allergy symptoms?",
+        "Can you recommend allergy-friendly foods?"
+      ],
+      "responses": [
+        "Common allergy symptoms include sneezing, itching, and swelling. For allergies, consider an elimination diet and consult an allergist. Be cautious with cross-contamination and always read food labels."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hydration_importance",
+      "patterns": [
+        "How much water should I drink daily?",
+        "What are the benefits of staying hydrated?"
+      ],
+      "responses": [
+        "Staying hydrated is crucial for overall health. Aim for at least 8 glasses (64 ounces) of water per day. Water supports digestion, nutrient absorption, and helps maintain bodily functions. Adjust based on activity level and climate."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "sun_safety_tips",
+      "patterns": [
+        "How can I protect my skin from the sun?",
+        "Are there natural sunscreens?"
+      ],
+      "responses": [
+        "Use sunscreen with at least SPF 30, wear protective clothing, and seek shade during peak sun hours. Natural options like zinc oxide provide physical sun protection. Reapply sunscreen every two hours and after swimming."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "immunity_boosting",
+      "patterns": [
+        "Are there foods that boost immunity?",
+        "What lifestyle habits support a strong immune system?"
+      ],
+      "responses": [
+        "A balanced diet with vitamins C and D, regular exercise, adequate sleep, and stress management contribute to a strong immune system. Consult a healthcare professional for personalized recommendations based on your health status."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "women_health_tips",
+      "patterns": [
+        "What are essential health tips for women?",
+        "Can you recommend exercises for women's health?"
+      ],
+      "responses": [
+        "Women's health includes regular check-ups, a balanced diet with calcium and iron, and exercises that support bone health. Consult a healthcare provider for personalized advice, especially during pregnancy or specific life stages."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "children_healthcare",
+      "patterns": [
+        "How can I ensure my child's health?",
+        "Are there tips for child nutrition?"
+      ],
+      "responses": [
+        "Ensure regular check-ups, provide a balanced diet rich in nutrients, encourage physical activity, and promote good hygiene practices. Consult a pediatrician for age-specific health guidance."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "elderly_healthcare",
+      "patterns": [
+        "What are health considerations for the elderly?",
+        "Can you suggest exercises for seniors?"
+      ],
+      "responses": [
+        "For seniors, regular medical check-ups, a balanced diet with sufficient nutrients, and exercises that focus on flexibility and strength are essential. Consult with healthcare professionals for age-specific health advice."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "vision_care_tips",
+      "patterns": [
+        "How can I take care of my eyes?",
+        "Are there exercises for better vision?"
+      ],
+      "responses": [
+        "Maintain regular eye check-ups, follow the 20-20-20 rule to reduce eye strain, and include eye-friendly nutrients in your diet. Consult an eye care professional for personalized advice, especially if you experience vision changes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "dental_healthcare",
+      "patterns": [
+        "What are essential dental care practices?",
+        "Can you recommend natural ways to care for teeth?"
+      ],
+      "responses": [
+        "Maintain regular dental check-ups, brush and floss daily, limit sugary foods, and use fluoride toothpaste. Natural practices like oil pulling may complement oral hygiene but consult a dentist for personalized recommendations."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "covid19_information",
+      "patterns": [
+        "What are the symptoms of COVID-19?",
+        "Can you provide COVID-19 prevention tips?"
+      ],
+      "responses": [
+        "Common COVID-19 symptoms include fever, cough, and difficulty breathing. Preventive measures include vaccination, wearing masks, practicing good hand hygiene, and following public health guidelines."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "diabetes_management",
+      "patterns": [
+        "How can I manage diabetes?",
+        "Are there diabetic-friendly recipes?"
+      ],
+      "responses": [
+        "Diabetes management involves monitoring blood sugar levels, a balanced diet, regular exercise, and medication as prescribed. Consult a healthcare professional and a nutritionist for personalized advice and recipes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blood_pressure_tips",
+      "patterns": [
+        "How can I maintain healthy blood pressure?",
+        "Are there foods that help regulate blood pressure?"
+      ],
+      "responses": [
+        "Maintain a low-sodium diet, engage in regular physical activity, manage stress, and limit alcohol intake to support healthy blood pressure. Consult a healthcare professional for personalized advice based on your health status."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "joint_healthcare",
+      "patterns": [
+        "What are tips for maintaining joint health?",
+        "Can you suggest exercises for joint flexibility?"
+      ],
+      "responses": [
+        "Maintain a healthy weight, engage in low-impact exercises, and include joint-friendly nutrients in your diet. Consult a healthcare professional for personalized advice, especially if you experience joint pain or arthritis."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "respiratory_health_tips",
+      "patterns": [
+        "How can I support respiratory health?",
+        "Are there exercises for lung health?"
+      ],
+      "responses": [
+        "Avoid smoking, maintain good indoor air quality, and engage in aerobic exercises to support respiratory health. Consult a healthcare professional for personalized advice, especially if you have respiratory conditions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thyroid_health",
+      "patterns": [
+        "What are tips for maintaining thyroid health?",
+        "Can you recommend foods for thyroid support?"
+      ],
+      "responses": [
+        "Include iodine-rich foods, maintain a balanced diet, and manage stress for thyroid health. Consult an endocrinologist for personalized advice, especially if you have thyroid disorders."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "digestive_health_tips",
+      "patterns": [
+        "How can I support digestive health?",
+        "Are there foods that aid digestion?"
+      ],
+      "responses": [
+        "Maintain a high-fiber diet, stay hydrated, and include probiotics for digestive health. Consult a healthcare professional for personalized advice, especially if you experience digestive issues."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hair_care_tips",
+      "patterns": [
+        "How can I care for my hair?",
+        "Are there natural remedies for hair health?"
+      ],
+      "responses": [
+        "Maintain a balanced diet, avoid excessive heat and chemical treatments, and use gentle hair care products for healthy hair. Consult a dermatologist for personalized advice, especially if you have specific hair concerns."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "skin_care_tips",
+      "patterns": [
+        "What are essential skin care practices?",
+        "Can you suggest natural remedies for clear skin?"
+      ],
+      "responses": [
+        "Cleanse and moisturize regularly, use sunscreen, and stay hydrated for healthy skin. Natural remedies like aloe vera and tea tree oil may complement skincare. Consult a dermatologist for personalized advice."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "weight_management",
+      "patterns": [
+        "How can I manage my weight?",
+        "Are there effective weight loss strategies?"
+      ],
+      "responses": [
+        "Maintain a balanced diet, engage in regular physical activity, and consider portion control for weight management. Consult a healthcare professional and a nutritionist for personalized advice and sustainable weight loss strategies."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "vitamin_and_mineral_sources",
+      "patterns": [
+        "What are good sources of vitamins and minerals?",
+        "Can you recommend a nutrient-rich diet?"
+      ],
+      "responses": [
+        "Include a variety of fruits, vegetables, whole grains, and lean proteins for a nutrient-rich diet. Consult a nutritionist for personalized advice based on your dietary preferences and health status."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "fitness_motivation",
+      "patterns": [
+        "How can I stay motivated to exercise?",
+        "Are there tips for maintaining a workout routine?"
+      ],
+      "responses": [
+        "Set realistic goals, vary your workouts, find activities you enjoy, and consider a workout buddy for motivation. Listen to your body and make adjustments to keep exercise enjoyable and sustainable."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "smoking_cessation",
+      "patterns": [
+        "How can I quit smoking?",
+        "Can you suggest strategies for smoking cessation?"
+      ],
+      "responses": [
+        "Consider nicotine replacement therapy, seek support from friends or family, and create a quit plan. Consult with healthcare professionals and support groups for personalized assistance in quitting smoking."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "immune_system_support",
+      "patterns": [
+        "How can I support my immune system?",
+        "Are there immune-boosting supplements?"
+      ],
+      "responses": [
+        "Eat a balanced diet, exercise regularly, get adequate sleep, and consider supplements like vitamin C and zinc to support the immune system. Consult a healthcare professional for personalized advice."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "caffeine_consumption",
+      "patterns": [
+        "Is caffeine consumption healthy?",
+        "How much caffeine is too much?"
+      ],
+      "responses": [
+        "Moderate caffeine consumption is generally considered safe for most adults. However, excessive caffeine intake can lead to negative effects. Individual tolerance varies, so be mindful of your own response to caffeine and adjust accordingly."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hydration_myths",
+      "patterns": [
+        "Are there myths about hydration?",
+        "What's the truth about 8 glasses of water a day?"
+      ],
+      "responses": [
+        "While the '8 glasses a day' guideline is a common recommendation, individual water needs vary. Listen to your body's signals for thirst and adjust your water intake accordingly. Hydration also comes from foods and beverages other than water."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mindful_eating",
+      "patterns": [
+        "What is mindful eating?",
+        "Can you provide tips for eating mindfully?"
+      ],
+      "responses": [
+        "Mindful eating involves paying attention to the sensations, flavors, and feelings associated with eating. Chew slowly, savor each bite, and listen to your body's hunger and fullness cues for a more enjoyable and balanced eating experience."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "posture_correction",
+      "patterns": [
+        "How can I improve my posture?",
+        "Are there exercises for better posture?"
+      ],
+      "responses": [
+        "Practice good ergonomics, strengthen core muscles, and perform exercises to improve posture. Consider consulting with a physical therapist for personalized exercises and guidance."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hydration_myths",
+      "patterns": [
+        "Are there myths about hydration?",
+        "What's the truth about 8 glasses of water a day?"
+      ],
+      "responses": [
+        "While the '8 glasses a day' guideline is a common recommendation, individual water needs vary. Listen to your body's signals for thirst and adjust your water intake accordingly. Hydration also comes from foods and beverages other than water."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "probiotics_benefits",
+      "patterns": [
+        "What are the benefits of probiotics?",
+        "Can you recommend probiotic-rich foods?"
+      ],
+      "responses": [
+        "Probiotics support gut health and may aid digestion. Yogurt, kefir, sauerkraut, and kimchi are examples of probiotic-rich foods. Consult with a healthcare professional for personalized advice, especially if considering supplements."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "plant_based_diet",
+      "patterns": [
+        "What is a plant-based diet?",
+        "Can you suggest plant-based meal ideas?"
+      ],
+      "responses": [
+        "A plant-based diet focuses on whole plant foods like fruits, vegetables, nuts, and grains. Consider incorporating a variety of colors and textures for balanced nutrition. Consult a nutritionist for personalized guidance."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mind-body_connection",
+      "patterns": [
+        "How is the mind connected to the body?",
+        "Can you suggest practices for mind-body wellness?"
+      ],
+      "responses": [
+        "The mind-body connection emphasizes the influence of mental and emotional well-being on physical health. Practices like meditation, yoga, and deep breathing can promote overall mind-body wellness."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromatherapy_benefits",
+      "patterns": [
+        "What are the benefits of aromatherapy?",
+        "Can you recommend essential oils for relaxation?"
+      ],
+      "responses": [
+        "Aromatherapy uses essential oils to promote relaxation, reduce stress, and improve mood. Lavender, chamomile, and eucalyptus are commonly used for relaxation. Consult with an aromatherapist for personalized recommendations."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "digital_detox",
+      "patterns": [
+        "How can I do a digital detox?",
+        "What are the benefits of reducing screen time?"
+      ],
+      "responses": [
+        "A digital detox involves taking a break from screens to reduce stress and improve sleep. Set boundaries for screen time, engage in offline activities, and create a relaxing bedtime routine for better overall well-being."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mindfulness_meditation",
+      "patterns": [
+        "What is mindfulness meditation?",
+        "Can you guide me through a simple mindfulness meditation?"
+      ],
+      "responses": [
+        "Mindfulness meditation involves paying attention to the present moment with openness and curiosity. Find a quiet space, focus on your breath, and gently bring your attention back when distractions arise. Start with short sessions and gradually increase duration."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "laughter_therapy",
+      "patterns": [
+        "How does laughter benefit health?",
+        "Can you suggest activities for laughter therapy?"
+      ],
+      "responses": [
+        "Laughter has positive effects on physical and mental health. Engage in activities that bring joy, watch comedies, or participate in laughter yoga. Laughter can reduce stress, boost mood, and enhance overall well-being."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mindful_breaks_at_work",
+      "patterns": [
+        "How can I incorporate mindfulness at work?",
+        "Are there short mindfulness exercises for work breaks?"
+      ],
+      "responses": [
+        "Take short breaks to practice mindful breathing, stretch, or focus on the present moment. Mindful breaks at work can enhance concentration, reduce stress, and improve overall job satisfaction."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "herbal_teas_benefits",
+      "patterns": [
+        "What are the benefits of herbal teas?",
+        "Can you recommend herbal teas for relaxation?"
+      ],
+      "responses": [
+        "Herbal teas, like chamomile and peppermint, can promote relaxation and digestive health. Avoid caffeine-containing teas in the evening. Consult with a healthcare professional, especially if you have specific health concerns or are pregnant."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mindful_parenting",
+      "patterns": [
+        "How can I practice mindful parenting?",
+        "Are there mindfulness activities for families?"
+      ],
+      "responses": [
+        "Practice active listening, be present with your child, and engage in mindful activities together. Mindful parenting fosters strong connections and supports children's emotional well-being."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "green_space_benefits",
+      "patterns": [
+        "What are the benefits of spending time in nature?",
+        "Can you suggest outdoor activities for well-being?"
+      ],
+      "responses": [
+        "Spending time in nature, also known as green space, can reduce stress, improve mood, and enhance overall well-being. Consider activities like hiking, gardening, or simply enjoying a walk in a nearby park."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ergonomic_workspace",
+      "patterns": [
+        "How can I create an ergonomic workspace?",
+        "Are there tips for preventing workplace-related discomfort?"
+      ],
+      "responses": [
+        "Adjust your chair and desk height, maintain proper posture, and take regular breaks to prevent discomfort. Consider using ergonomic accessories and consult with an occupational therapist for personalized recommendations."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mindful_communication",
+      "patterns": [
+        "What is mindful communication?",
+        "Can you provide tips for effective and mindful communication?"
+      ],
+      "responses": [
+        "Mindful communication involves listening actively, expressing thoughts with clarity, and being present in conversations. Practice empathy and seek understanding in interactions for improved relationships."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "music_therapy",
+      "patterns": [
+        "How does music therapy benefit mental health?",
+        "Can you suggest calming music for relaxation?"
+      ],
+      "responses": [
+        "Music therapy can reduce stress, anxiety, and improve mood. Choose music with a calming tempo and melody for relaxation. Explore different genres to find what resonates with you personally."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mindful_eating",
+      "patterns": [
+        "What is mindful eating?",
+        "Can you provide tips for eating mindfully?"
+      ],
+      "responses": [
+        "Mindful eating involves paying attention to the sensations, flavors, and feelings associated with eating. Chew slowly, savor each bite, and listen to your body's hunger and fullness cues for a more enjoyable and balanced eating experience."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "posture_correction",
+      "patterns": [
+        "How can I improve my posture?",
+        "Are there exercises for better posture?"
+      ],
+      "responses": [
+        "Practice good ergonomics, strengthen core muscles, and perform exercises to improve posture. Consider consulting with a physical therapist for personalized exercises and guidance."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hydration_myths",
+      "patterns": [
+        "Are there myths about hydration?",
+        "What's the truth about 8 glasses of water a day?"
+      ],
+      "responses": [
+        "While the '8 glasses a day' guideline is a common recommendation, individual water needs vary. Listen to your body's signals for thirst and adjust your water intake accordingly. Hydration also comes from foods and beverages other than water."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "probiotics_benefits",
+      "patterns": [
+        "What are the benefits of probiotics?",
+        "Can you recommend probiotic-rich foods?"
+      ],
+      "responses": [
+        "Probiotics support gut health and may aid digestion. Yogurt, kefir, sauerkraut, and kimchi are examples of probiotic-rich foods. Consult with a healthcare professional for personalized advice, especially if considering supplements."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "plant_based_diet",
+      "patterns": [
+        "What is a plant-based diet?",
+        "Can you suggest plant-based meal ideas?"
+      ],
+      "responses": [
+        "A plant-based diet focuses on whole plant foods like fruits, vegetables, nuts, and grains. Consider incorporating a variety of colors and textures for balanced nutrition. Consult a nutritionist for personalized guidance."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mind-body_connection",
+      "patterns": [
+        "How is the mind connected to the body?",
+        "Can you suggest practices for mind-body wellness?"
+      ],
+      "responses": [
+        "The mind-body connection emphasizes the influence of mental and emotional well-being on physical health. Practices like meditation, yoga, and deep breathing can promote overall mind-body wellness."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromatherapy_benefits",
+      "patterns": [
+        "What are the benefits of aromatherapy?",
+        "Can you recommend essential oils for relaxation?"
+      ],
+      "responses": [
+        "Aromatherapy uses essential oils to promote relaxation, reduce stress, and improve mood. Lavender, chamomile, and eucalyptus are commonly used for relaxation. Consult with an aromatherapist for personalized recommendations."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "digital_detox",
+      "patterns": [
+        "How can I do a digital detox?",
+        "What are the benefits of reducing screen time?"
+      ],
+      "responses": [
+        "A digital detox involves taking a break from screens to reduce stress and improve sleep. Set boundaries for screen time, engage in offline activities, and create a relaxing bedtime routine for better overall well-being."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mindfulness_meditation",
+      "patterns": [
+        "What is mindfulness meditation?",
+        "Can you guide me through a simple mindfulness meditation?"
+      ],
+      "responses": [
+        "Mindfulness meditation involves paying attention to the present moment with openness and curiosity. Find a quiet space, focus on your breath, and gently bring your attention back when distractions arise. Start with short sessions and gradually increase duration."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "laughter_therapy",
+      "patterns": [
+        "How does laughter benefit health?",
+        "Can you suggest activities for laughter therapy?"
+      ],
+      "responses": [
+        "Laughter has positive effects on physical and mental health. Engage in activities that bring joy, watch comedies, or participate in laughter yoga. Laughter can reduce stress, boost mood, and enhance overall well-being."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mindful_breaks_at_work",
+      "patterns": [
+        "How can I incorporate mindfulness at work?",
+        "Are there short mindfulness exercises for work breaks?"
+      ],
+      "responses": [
+        "Take short breaks to practice mindful breathing, stretch, or focus on the present moment. Mindful breaks at work can enhance concentration, reduce stress, and improve overall job satisfaction."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "herbal_teas_benefits",
+      "patterns": [
+        "What are the benefits of herbal teas?",
+        "Can you recommend herbal teas for relaxation?"
+      ],
+      "responses": [
+        "Herbal teas, like chamomile and peppermint, can promote relaxation and digestive health. Avoid caffeine-containing teas in the evening. Consult with a healthcare professional, especially if you have specific health concerns or are pregnant."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mindful_parenting",
+      "patterns": [
+        "How can I practice mindful parenting?",
+        "Are there mindfulness activities for families?"
+      ],
+      "responses": [
+        "Practice active listening, be present with your child, and engage in mindful activities together. Mindful parenting fosters strong connections and supports children's emotional well-being."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "green_space_benefits",
+      "patterns": [
+        "What are the benefits of spending time in nature?",
+        "Can you suggest outdoor activities for well-being?"
+      ],
+      "responses": [
+        "Spending time in nature, also known as green space, can reduce stress, improve mood, and enhance overall well-being. Consider activities like hiking, gardening, or simply enjoying a walk in a nearby park."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ergonomic_workspace",
+      "patterns": [
+        "How can I create an ergonomic workspace?",
+        "Are there tips for preventing workplace-related discomfort?"
+      ],
+      "responses": [
+        "Adjust your chair and desk height, maintain proper posture, and take regular breaks to prevent discomfort. Consider using ergonomic accessories and consult with an occupational therapist for personalized recommendations."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mindful_communication",
+      "patterns": [
+        "What is mindful communication?",
+        "Can you provide tips for effective and mindful communication?"
+      ],
+      "responses": [
+        "Mindful communication involves listening actively, expressing thoughts with clarity, and being present in conversations. Practice empathy and seek understanding in interactions for improved relationships."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "music_therapy",
+      "patterns": [
+        "How does music therapy benefit mental health?",
+        "Can you suggest calming music for relaxation?"
+      ],
+      "responses": [
+        "Music therapy can reduce stress, anxiety, and improve mood. Choose music with a calming tempo and melody for relaxation. Explore different genres to find what resonates with you personally."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "diabetes_management",
+      "patterns": [
+        "How to manage diabetes?",
+        "What are the key components of a diabetes management plan?"
+      ],
+      "responses": [
+        "Diabetes management involves monitoring blood sugar levels, following a balanced diet, regular exercise, and medication as prescribed. Consult with a healthcare team for personalized guidance."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "heart_health",
+      "patterns": [
+        "How to maintain heart health?",
+        "Are there lifestyle changes for a healthy heart?"
+      ],
+      "responses": [
+        "Maintain heart health by adopting a heart-healthy diet, staying physically active, managing stress, and avoiding tobacco. Regular check-ups and knowing your numbers, like cholesterol and blood pressure, are also crucial."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mental_health_support",
+      "patterns": [
+        "Where to find mental health support?",
+        "Are there resources for mental health assistance?"
+      ],
+      "responses": [
+        "Seek mental health support through therapy, counseling, or support groups. Many organizations offer helplines and online resources. Don't hesitate to reach out to friends, family, or healthcare professionals for assistance."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "arthritis_management",
+      "patterns": [
+        "Tips for managing arthritis pain",
+        "Are there exercises for arthritis relief?"
+      ],
+      "responses": [
+        "Manage arthritis pain with a combination of gentle exercises, hot and cold therapy, and medications as prescribed. Consult with a rheumatologist for personalized advice on managing arthritis symptoms."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "asthma_management",
+      "patterns": [
+        "How to manage asthma effectively?",
+        "Are there lifestyle changes to control asthma symptoms?"
+      ],
+      "responses": [
+        "Effectively manage asthma by identifying triggers, taking prescribed medications, and following an asthma action plan. Regular check-ups with a pulmonologist can help monitor and adjust the treatment plan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cancer_prevention",
+      "patterns": [
+        "Tips for cancer prevention",
+        "What lifestyle changes can reduce cancer risk?"
+      ],
+      "responses": [
+        "Reduce cancer risk by adopting a healthy lifestyle, including regular exercise, a balanced diet, and avoiding tobacco and excessive sun exposure. Regular screenings and early detection are crucial for certain cancers."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "osteoporosis_prevention",
+      "patterns": [
+        "How to prevent osteoporosis?",
+        "Are there exercises for bone health?"
+      ],
+      "responses": [
+        "Prevent osteoporosis by ensuring an adequate intake of calcium and vitamin D, engaging in weight-bearing exercises, and avoiding smoking and excessive alcohol consumption. Consult with a healthcare provider for personalized advice."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hypertension_management",
+      "patterns": [
+        "Tips for managing hypertension",
+        "How to lower high blood pressure naturally?"
+      ],
+      "responses": [
+        "Manage hypertension by maintaining a healthy weight, reducing sodium intake, exercising regularly, and avoiding excessive alcohol. Take prescribed medications as directed and monitor blood pressure regularly."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thyroid_disorders",
+      "patterns": [
+        "Information about thyroid disorders",
+        "What are common symptoms of thyroid problems?"
+      ],
+      "responses": [
+        "Thyroid disorders can cause symptoms like fatigue, weight changes, and mood swings. Diagnose and manage thyroid conditions with blood tests and medications prescribed by an endocrinologist."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "allergy_management",
+      "patterns": [
+        "How to manage allergies effectively?",
+        "Are there tips for preventing allergy symptoms?"
+      ],
+      "responses": [
+        "Manage allergies by identifying triggers, using allergy-friendly products, and taking antihistamines as needed. Consult with an allergist for allergy testing and personalized management strategies."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "digestive_health",
+      "patterns": [
+        "Tips for maintaining digestive health",
+        "Are there foods that promote a healthy digestive system?"
+      ],
+      "responses": [
+        "Maintain digestive health by eating a fiber-rich diet, staying hydrated, and avoiding excessive intake of fatty or spicy foods. Consult with a gastroenterologist for digestive issues or concerns."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "liver_health",
+      "patterns": [
+        "How to support liver health?",
+        "Are there lifestyle changes for a healthy liver?"
+      ],
+      "responses": [
+        "Support liver health by maintaining a healthy weight, limiting alcohol intake, and avoiding excessive consumption of processed foods. Regular liver function tests can help monitor liver health."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kidney_health",
+      "patterns": [
+        "Tips for maintaining kidney health",
+        "Are there foods that promote kidney function?"
+      ],
+      "responses": [
+        "Maintain kidney health by staying hydrated, reducing sodium intake, and eating a balanced diet. Regular check-ups with a nephrologist can help monitor kidney function and detect potential issues early."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "stroke_prevention",
+      "patterns": [
+        "How to prevent strokes?",
+        "Are there lifestyle changes to reduce stroke risk?"
+      ],
+      "responses": [
+        "Prevent strokes by controlling blood pressure, maintaining a healthy weight, and managing conditions like diabetes. Adopt a heart-healthy lifestyle and seek medical attention for any warning signs or risk factors."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mental_health_conditions",
+      "patterns": [
+        "Common mental health conditions",
+        "What are the symptoms of anxiety and depression?"
+      ],
+      "responses": [
+        "Common mental health conditions include anxiety disorders, depression, and bipolar disorder. Seek professional help for proper diagnosis and treatment. Mental health is as important as physical health."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "diabetes_management",
+      "patterns": [
+        "How to manage diabetes?",
+        "What are the key components of a diabetes management plan?"
+      ],
+      "responses": [
+        "Diabetes management involves monitoring blood sugar levels, following a balanced diet, regular exercise, and medication as prescribed. Consult with a healthcare team for personalized guidance."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "heart_health",
+      "patterns": [
+        "How to maintain heart health?",
+        "Are there lifestyle changes for a healthy heart?"
+      ],
+      "responses": [
+        "Maintain heart health by adopting a heart-healthy diet, staying physically active, managing stress, and avoiding tobacco. Regular check-ups and knowing your numbers, like cholesterol and blood pressure, are also crucial."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mental_health_support",
+      "patterns": [
+        "Where to find mental health support?",
+        "Are there resources for mental health assistance?"
+      ],
+      "responses": [
+        "Seek mental health support through therapy, counseling, or support groups. Many organizations offer helplines and online resources. Don't hesitate to reach out to friends, family, or healthcare professionals for assistance."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm here to assist you with health and wellness information. However, I didn't understand that. Could you please rephrase or ask another question?",
+        "I'm still learning! If my response is unclear, feel free to provide more information or ask a different question related to health and wellness.",
+        "I'm here to help with health-related queries. If my understanding is unclear, please rephrase or ask another question, and I'll do my best to assist you."
+      ],
+      "context_set": ""
+    },
+    {
       "tag": "greeting",
       "patterns": [
         "Hi",
         "Hello",
-        "Hey there",
+        "Hey",
+        "Greetings",
         "Good morning",
-        "Good afternoon"
+        "Good afternoon",
+        "Good evening"
       ],
       "responses": [
         "Hello! How can I assist you today?",
-        "Hi there! What medical assistance do you need?",
-        "Hey! I'm here to help with your first aid questions."
-      ]
+        "Hi there! What health and wellness information are you looking for?",
+        "Greetings! Feel free to ask me any questions about staying healthy and well."
+      ],
+      "context_set": ""
     },
     {
-      "tag": "farewell",
+      "tag": "goodbye",
       "patterns": [
         "Goodbye",
-        "See you later",
         "Bye",
-        "Thanks for the help",
-        "That's all for now"
+        "See you later",
+        "Farewell"
       ],
       "responses": [
-        "Goodbye! Stay safe and take care.",
-        "See you later! Don't hesitate to return if you have more questions.",
-        "Bye! I'm here whenever you need first aid advice."
-      ]
-    },
-    {
-      "tag": "thanks",
-      "patterns": [
-        "Thank you",
-        "Thanks",
-        "Appreciate it",
-        "That was helpful"
+        "Goodbye! If you have more questions in the future, feel free to ask. Take care!",
+        "Farewell! Remember, your health matters. If you need information, don't hesitate to return.",
+        "Bye! Stay healthy and have a great day!"
       ],
-      "responses": [
-        "You're welcome! I'm glad I could help.",
-        "No problem at all, happy to assist!",
-        "Anytime! If you have more questions, just ask."
-      ]
-    },
-    {
-      "tag": "first_aid_burns",
-      "patterns": [
-        "How do I treat a burn?",
-        "What's the first aid for a burn?",
-        "I got burned, what should I do?"
-      ],
-      "responses": [
-        "For minor burns, cool the burn under cold running water for at least ten minutes. Remove any jewelry or clothing around the area. Do not apply ice, butter, or creams. For serious burns, seek medical attention immediately."
-      ]
-    },
-    {
-      "tag": "first_aid_cuts",
-      "patterns": [
-        "What should I do for a cut?",
-        "How to treat a cut?",
-        "First aid for a bleeding cut"
-      ],
-      "responses": [
-        "For a cut, clean the wound with water and apply gentle pressure with a sterile bandage or clean cloth. If bleeding does not stop, seek medical attention."
-      ]
-    },
-    {
-      "tag": "first_aid_sprains",
-      "patterns": [
-        "First aid for a sprain",
-        "How to treat a sprained ankle?",
-        "I think I sprained my wrist, what should I do?"
-      ],
-      "responses": [
-        "For a sprain, remember R.I.C.E: Rest the injured area, Ice it to reduce swelling, Compress with a bandage, and Elevate the limb. If pain and swelling persist, consult a doctor."
-      ]
-    },
-    {
-      "tag": "first_aid_choking",
-      "patterns": [
-        "Give me first aid steps for choking",
-        "What to do if someone is choking?",
-        "choke",
-        "Heimlich maneuver steps"
-      ],
-      "responses": [
-        "If someone is choking and can't talk, cough, or breathe, stand behind them and give 5 sharp back blows between the shoulder blades with the heel of your hand. If this doesn't work, perform the Heimlich maneuver. For infants, use back slaps and chest thrusts. Seek emergency help if the object does not dislodge."
-      ]
-    },
-    {
-      "tag": "first_aid_bleeding",
-      "patterns": [
-        "First aid procedure for bleeding",
-        "How to stop bleeding?",
-        "Someone is bleeding, what should I do?"
-      ],
-      "responses": [
-        "To stop bleeding, apply firm pressure to the wound with a clean cloth or bandage. Elevate the injured area above the heart if possible. If bleeding is severe or doesn't stop, seek medical attention immediately."
-      ]
-    },
-    {
-      "tag": "search",
-      "patterns": [
-        "Search for",
-        "Find information about",
-        "Look up"
-      ],
-      "responses": [
-        "Let me find that for you.",
-        "Sure, I'll search for it."
-      ]
+      "context_set": ""
     }
   ]
 }
